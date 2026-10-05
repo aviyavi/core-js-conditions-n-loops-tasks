@@ -122,12 +122,12 @@ function convertNumberToString(numberStr) {
       case '-':
         word = 'minus';
         break;
-        case '.':
-          word = 'point';
-          break;
-        case ',':
-          word = 'point';
-          break;  
+      case '.':
+        word = 'point';
+        break;
+      case ',':
+        word = 'point';
+        break;
       default:
         word = '';
     }
